@@ -1,3 +1,6 @@
+// Declarar una variable constante con el valor de PI
+const val PI = 3.14159265359
+
 fun main() {
     // Declarar una variable decimal
     val decimal = 3.1415
@@ -8,9 +11,6 @@ fun main() {
     val flotante = decimal.toFloat()
 
     println("Numero flotante: $flotante")
-
-    // Declarar una variable constante con el valor de PI
-    val PI = 3.14159265359
 
     // Calcular el perímetro de un círculo
     val perimetro = 2 * PI * decimal
